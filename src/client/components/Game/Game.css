@@ -1,0 +1,31 @@
+.gamepage {
+  height: 500px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: first baseline;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  border: 1px solid black;
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.game {
+  display: flex;
+  border: 1px solid black;
+  height: 350px;
+  width: 100%;
+}
+
+.clues {
+  background-color: grey;
+  padding: 40px;
+  margin: 5px;
+  height: 50%;
+}
