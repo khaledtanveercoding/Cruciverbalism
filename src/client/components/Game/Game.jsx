@@ -42,7 +42,7 @@ export default function Game() {
     console.log(downclues);
   }, [downclues]);
   // for loop board.answers.across
-  // writing nub  2d array hash map
+  // writing  2d array 
   //map data
 
   return (
