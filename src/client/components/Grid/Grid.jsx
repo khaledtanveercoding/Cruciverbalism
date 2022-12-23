@@ -1,6 +1,7 @@
 import React from "react";
-
-export default function Grid() {
+//loop through to create clues and grid 
+//on click with side effects
+export default function Grid({board, acrossclues, downclues}) {
   let hold = [];
   let x = 0;
   let y = 0;
@@ -20,3 +21,10 @@ export default function Grid() {
     </svg>
   );
 }
+
+//create ref bind it
+//certain property state color on hover
+//generate grid post data
+// creae table table cells
+// tr rows
+
