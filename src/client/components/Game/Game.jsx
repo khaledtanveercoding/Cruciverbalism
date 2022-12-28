@@ -42,7 +42,7 @@ export default function Game() {
     console.log(downclues);
   }, [downclues]);
   // for loop board.answers.across
-  // writing  2d array 
+  // writing  2d array
   //map data
 
   return (
@@ -55,18 +55,14 @@ export default function Game() {
       <div className="game">
         <Grid board={board} acrossclues={acrossclues} downclues={downclues} />
         <ol className="clues">
-          <li>Clue</li>
-          <li>Clue</li>
-          <li>Clue</li>
-          <li>Clue</li>
-          <li>Clue</li>
+          {downclues.map((dclues) => (
+            <li>{downclues}</li>
+          ))}
         </ol>
         <ol className="clues">
-          <li>Clue</li>
-          <li>Clue</li>
-          <li>Clue</li>
-          <li>Clue</li>
-          <li>Clue</li>
+          {acrossclues.map((aclues) => (
+            <li>{acrossclues}</li>
+          ))}
         </ol>
       </div>
     </div>
