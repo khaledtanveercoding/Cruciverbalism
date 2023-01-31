@@ -33,6 +33,7 @@ export default function Game() {
           // console.log(board);
           // console.log(acrossclues);
           // console.log(downclues);
+          //massage the data and push it to theboard 
         });
       }
     });
@@ -60,9 +61,15 @@ export default function Game() {
           ))}
         </ol>
         <ol className="clues">
-          {acrossclues.map((aclues) => (
-            <li>{acrossclues}</li>
-          ))}
+          <div classname="clueconstaint">
+            {acrossclues.map((aclues) => (
+              <li>
+                {acrossclues} + " ..."
+                <br />
+                <br />
+              </li>
+            ))}
+          </div>
         </ol>
       </div>
     </div>

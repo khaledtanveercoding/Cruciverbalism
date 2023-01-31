@@ -29,3 +29,11 @@
   margin: 5px;
   height: 50%;
 }
+
+.clueconstraint {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ width: 800px;
+ height: 50px;
+}

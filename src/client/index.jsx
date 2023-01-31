@@ -11,7 +11,6 @@ import Game from "./components/Game/Game";
 import Config from "./components/Config/Config";
 
 
-
 const router = createBrowserRouter([
     {
         path: "/",
