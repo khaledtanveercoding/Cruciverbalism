@@ -7,6 +7,10 @@ export default function Grid {
 
 }
 
+const x = 0;
+assert.equal(x,0);
+
+
 
 function generateClueArray(clues) {
     return clues.map((clue) =>{
